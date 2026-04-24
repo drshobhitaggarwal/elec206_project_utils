@@ -4,6 +4,7 @@
 #include "esp_log.h"
 #include "driver/i2c_master.h"
 #include "bmp180.h"
+#include "nvs_flash.h"
 
 static const char *TAG = "APP_MAIN";
 
