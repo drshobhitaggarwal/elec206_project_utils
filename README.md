@@ -39,3 +39,8 @@ The server expects data in this format:
   "press": 1013.25,
   "cat": "Normal"
 }
+
+Commands to:
+run the server:  python server.py
+
+To run the dashboard: streamlit run dashboard.py
