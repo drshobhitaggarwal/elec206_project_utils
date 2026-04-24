@@ -4,7 +4,7 @@
 #include "esp_err.h"
 
 // Configuration
-#define SERVER_URL "http://10.0.0.31:5000/data"
+#define SERVER_URL "http://10.0.0.31:5000/data"  // modify the ip address to your laptop's IP address.
 
 // Data structure for the sensor record
 typedef struct {
