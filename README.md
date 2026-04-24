@@ -40,7 +40,11 @@ The server expects data in this format:
   "cat": "Normal"
 }
 
-Commands to:
-run the server:  python server.py
+To observer the data on dashboard:
+- Make sure that the laptop and the esp32 is connected to the same WIFI network
+- Run the server first and then run the dashboard.
 
-To run the dashboard: streamlit run dashboard.py
+Commands to:
+- run the server:  python server.py
+
+- run the dashboard: streamlit run dashboard.py
